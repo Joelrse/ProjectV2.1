@@ -1,0 +1,150 @@
+/* General body styling for the page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+h1, h2 {
+  color: #2c3e50;  /* Dark blue for strong contrast */
+  text-align: center;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;  /* Lighter text for readability */
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+
+/* Highlighted feature list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #e8f5e9;
+  border-left: 5px solid #388e3c;  /* Green accent on the side */
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Image container styling */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Image styling */
+.container img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Error styling */
+.error {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+}
+
+/* Link styling */
+a {
+  color: #2c7a7b;  /* Soft blue-green */
+  text-decoration: none;
+  border-bottom: 2px solid #2c7a7b;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1d5b5d;
+  border-bottom-color: #1d5b5d;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #e0f7fa;
+  text-decoration: none;
+  border-bottom: 1px solid #e0f7fa;
+}
+
+footer a:hover {
+  color: #ffffff;
+  border-bottom-color: white;
+}
